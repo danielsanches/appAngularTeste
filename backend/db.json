@@ -1,0 +1,14 @@
+{
+  "products": [
+    {
+      "nome": "Teclado Gamer",
+      "preco": "360",
+      "id": 1
+    },
+    {
+      "nome": "Mouse Gamer",
+      "preco": "250",
+      "id": 2
+    }
+  ]
+}
