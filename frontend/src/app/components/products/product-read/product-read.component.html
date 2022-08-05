@@ -1,0 +1,21 @@
+<div class="mat-elevarion-z4">
+  <table mat-table [dataSource]="products">
+    <ng-container matColumnDef="id">
+      <th mat-header-cell *matHeaderCellDef>Id</th>
+      <th mat-cell *matCellDef="let row">{{row.id}}</th>
+    </ng-container>
+
+    <ng-container matColumnDef="nome">
+      <th mat-header-cell *matHeaderCellDef>Nome</th>
+      <th mat-cell *matCellDef="let row">{{row.nome}}</th>
+    </ng-container>
+
+    <ng-container matColumnDef="preco">
+      <th mat-header-cell *matHeaderCellDef>Preço</th>
+      <th mat-cell *matCellDef="let row">{{row.preco | currency:'BRL'}}</th>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+</div>

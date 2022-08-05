@@ -9,6 +9,21 @@
       "nome": "Mouse Gamer",
       "preco": "250",
       "id": 2
+    },
+    {
+      "nome": "Teste",
+      "preco": 5.6,
+      "id": 3
+    },
+    {
+      "nome": "Cpu r5 3600",
+      "preco": "998",
+      "id": 4
+    },
+    {
+      "nome": "Teste",
+      "preco": "250",
+      "id": 5
     }
   ]
 }
